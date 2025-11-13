@@ -22,9 +22,14 @@ function App() {
       <header className="bg-[#0e1f3e] text-white py-6 px-4 shadow-lg">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <h1 className="text-2xl font-bold">Exceed Learning Center</h1>
-          <button className="bg-[#ca3433] hover:bg-[#a82a29] px-6 py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+          <a
+            href="https://buy.stripe.com/5kQ28k9Kk9se9S92SfdfG01"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#ca3433] hover:bg-[#a82a29] px-6 py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+          >
             Register Now
-          </button>
+          </a>
         </div>
       </header>
 
@@ -196,9 +201,14 @@ function App() {
             <p className="text-lg text-gray-600 mb-8">
               Join us on November 25, 2025 at 6:30 PM for this transformative workshop
             </p>
-            <button className="bg-[#ca3433] hover:bg-[#a82a29] text-white px-12 py-4 rounded-lg text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+            <a
+              href="https://buy.stripe.com/5kQ28k9Kk9se9S92SfdfG01"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#ca3433] hover:bg-[#a82a29] text-white px-12 py-4 rounded-lg text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+            >
               Register Now
-            </button>
+            </a>
           </div>
         </div>
       </section>
